@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/sa_ni_background">
+
+    <TextView
+        android:id="@+id/sa_ni_tv_input_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Your Data"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/sa_ni_primary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/sa_ni_tv_input_subtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fill in your monthly finances below"
+        android:textSize="14sp"
+        android:textColor="@color/sa_ni_text_secondary"
+        app:layout_constraintTop_toBottomOf="@id/sa_ni_tv_input_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="8dp" />
+
+    <EditText
+        android:id="@+id/sa_ni_et_income"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Your Income"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@id/sa_ni_tv_input_subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/sa_ni_et_expenses"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Your Expenses"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@id/sa_ni_et_income"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/sa_ni_btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Savings"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/sa_ni_primary"
+        app:layout_constraintTop_toBottomOf="@id/sa_ni_et_expenses"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

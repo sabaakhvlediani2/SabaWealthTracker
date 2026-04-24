@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WealthTrackerSA" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/sa_ni_primary</item>
+        <item name="colorPrimaryVariant">@color/sa_ni_primary_dark</item>
+        <item name="colorOnPrimary">@color/sa_ni_white</item>
+        <item name="colorSecondary">@color/sa_ni_accent</item>
+        <item name="android:statusBarColor">@color/sa_ni_primary_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sa_ni_primary">#5C6BC0</color>
+    <color name="sa_ni_primary_dark">#3949AB</color>
+    <color name="sa_ni_accent">#7986CB</color>
+    <color name="sa_ni_white">#FFFFFF</color>
+    <color name="sa_ni_text_primary">#1A1A2E</color>
+    <color name="sa_ni_text_secondary">#616161</color>
+    <color name="sa_ni_background">#E8EAF6</color>
+    <color name="sa_ni_savings_green">#00897B</color>
+</resources>
