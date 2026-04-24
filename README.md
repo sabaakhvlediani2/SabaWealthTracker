@@ -1,4 +1,4 @@
-# WealthTracker SA
+# WealthTracker
 
 ## Student Information
 - **Student:** საბა ახვლედიანი (Saba Akhvlediani)
